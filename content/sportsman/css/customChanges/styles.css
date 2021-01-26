@@ -3,3 +3,87 @@
 
 .title {
   white-space: nowrap; }
+
+.achievementsWrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+  .achievementsWrapper .widgets_wrapper {
+    flex-grow: 1; }
+  .achievementsWrapper .subscribeCheck {
+    display: flex; }
+
+.schedule {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 40px; }
+
+.timeContainer {
+  background-position: center center !important;
+  background-size: cover !important; }
+
+.navRow {
+  background-color: white;
+  margin: 0 !important;
+  width: 100% !important;
+  background-color: black;
+  color: white;
+  padding-right: 30px;
+  box-sizing: border-box; }
+  .navRow a {
+    font-size: 20px;
+    margin-left: 5px; }
+
+.teamsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .teamsContainer .team {
+    width: 48%; }
+  .teamsContainer .img {
+    width: 100%;
+    height: 180px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 1px solid black; }
+  .teamsContainer p span {
+    text-decoration: underline;
+    font-weight: bold; }
+  .teamsContainer .team--spades .img {
+    background-image: url("/images/spade.JPG"); }
+  .teamsContainer .team--hearts .img {
+    background-image: url("/images/heart.JPG"); }
+  .teamsContainer .team--diamonds .img {
+    background-image: url("/images/diamond.JPG"); }
+  .teamsContainer .team--clubs .img {
+    background-image: url("/images/clover.JPG"); }
+
+.weeklyResults {
+  display: flex;
+  justify-content: space-between !important; }
+  .weeklyResults .border {
+    border-right: 2px solid black; }
+  .weeklyResults h2 {
+    font-size: 20px;
+    border: 1px solid black;
+    height: 40px;
+    line-height: 45px;
+    text-align: center;
+    width: 80%;
+    font-style: initial; }
+  .weeklyResults > div {
+    display: flex;
+    flex-direction: column;
+    width: 30%; }
+    .weeklyResults > div > div {
+      min-height: 160px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .weeklyResults > div > div h3 {
+        font-size: 20px;
+        text-decoration: underline; }
+      .weeklyResults > div > div p {
+        font-size: 17px;
+        font-weight: bold; }
